@@ -7,7 +7,7 @@ bot_app = dash.Dash(__name__, server=server, url_base_pathname="/bot/", suppress
 
 # 🔹 **Layout сторінки**
 layout = html.Div([
-    html.H1("Чат-бот"),
+    html.H1("Чат-бот", className="page-title"),
     dcc.Input(id="user-input", type="text", placeholder="Напишіть повідомлення", style={"width": "60%"}),
     html.Button("Надіслати", id="send-button", n_clicks=0),
     html.Div(id="chat-response", style={"margin-top": "20px", "font-size": "18px"})

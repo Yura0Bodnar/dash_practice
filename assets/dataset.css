@@ -1,0 +1,46 @@
+#upload-button {
+    display: flex;
+    margin-top: 2%;
+    right: 5%;
+    margin-left: auto;
+}
+
+.upload-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+/* 🔹 Контейнер списку */
+.dataset-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    width: 80%;
+    margin: auto;
+}
+
+/* 🔹 Окремий елемент у списку */
+.dataset-item {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Затемнений фон */
+    padding: 1.2%;
+    border-radius: 0.8vw;
+    font-size: 1.2vw; /* Зменшений шрифт */
+    font-weight: 500;
+    text-align: left;
+    display: flex;
+    margin-top: 2%;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* 🔹 Ховер-ефект */
+.dataset-item:hover {
+    background-color: rgba(0, 0, 0, 0.2); /* Темніший фон при наведенні */
+}

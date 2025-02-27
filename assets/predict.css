@@ -1,0 +1,27 @@
+/* 🔹 Кнопки */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* 🔹 Відповідь прогнозу */
+.output-box {
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: #333;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
