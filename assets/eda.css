@@ -1,0 +1,16 @@
+/* Контейнер для загальної інформації */
+.eda-summary {
+    text-align: center;
+    font-size: 1.5vw;
+    margin-bottom: 3%;
+}
+
+/* Контейнер для графіків */
+.eda-graphs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    width: 90%;
+    margin: auto;
+}

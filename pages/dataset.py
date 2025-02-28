@@ -17,9 +17,21 @@ layout = html.Div([
     # html.Div(id="datasets-container", children="Load dataset", className="upload-message"),
 
     html.Div([
-        html.Div("About_rest_chunks.csv", className="dataset-item"),
-        html.Div("CatBoost_chunks.csv", className="dataset-item"),
-        html.Div("LightGBM_chunks.csv", className="dataset-item"),
+        html.Div([
+            html.Span("About_rest_chunks.csv", className="dataset-name"),
+            html.Button(html.I(className="fa fa-trash"), className="delete-button")
+        ], className="dataset-item"),
+
+        html.Div([
+            html.Span("CatBoost_chunks.csv", className="dataset-name"),
+            html.Button(html.I(className="fa fa-trash"), className="delete-button")
+        ], className="dataset-item"),
+
+        html.Div([
+            html.Span("LightGBM_chunks.csv", className="dataset-name"),
+            html.Button(html.I(className="fa fa-trash"), className="delete-button")
+        ], className="dataset-item"),
+
     ], className="dataset-list"),
 ], className="page-content")
 
